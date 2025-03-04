@@ -206,9 +206,9 @@ button.disabled:hover {
 </style>
 </head>
 <body>
-<h1>Picker</h1>
+<h1>Favorite Comfy Friends Picker</h1>
 
-<p>You can include any content you want here.</p>
+<p>Click or tap on your favorites then select "Pick"</p>
 
 <div id="container">
 
@@ -216,7 +216,7 @@ button.disabled:hover {
 <ul id="evaluating" class="item-list">
 </ul>
 
-<p id="buttons"><button id="pick">Pick</button> <button id="pass">Pass</button> <button id="undo">Undo</button> <button id="redo">Redo</button></p>
+<p id="buttons"><button id="pick">Pick</button> <button id="pass">Skip</button> <button id="undo">Undo</button> <button id="redo">Redo</button></p>
 </div>
 
 <div id="secondary">
@@ -235,9 +235,36 @@ button.disabled:hover {
 
 var items = [
     // Define your items here
-	{id: 'swablu', name: 'Swablu', image: 'pictures/swablu.jpg'},
-    {id: 'quagsire', name: 'Quagsire', image: 'pictures/quagsire.jpg'},
-    {id: 'piplup', name: 'Piplup', image: 'pictures/piplup.jpg'}
+	{id: 'bidoof', name: 'bidoof', image: 'pictures/bidoof.jpg'},
+	{id: 'chimchar', name: 'chimchar', image: 'pictures/chimchar.jpg'},
+	{id: 'cinccino', name: 'cinccino', image: 'pictures/cinccino.jpg'},
+	{id: 'clodsire', name: 'clodsire', image: 'pictures/clodsire.jpg'},
+	{id: 'dedenne', name: 'dedenne', image: 'pictures/dedenne.jpg'},
+	{id: 'ditto', name: 'ditto', image: 'pictures/ditto.jpg'},
+	{id: 'eevee', name: 'eevee', image: 'pictures/eevee.jpg'},
+	{id: 'espeon', name: 'espeon', image: 'pictures/espeon.jpg'},
+	{id: 'flareon', name: 'flareon', image: 'pictures/flareon.jpg'},
+	{id: 'greavard', name: 'greavard', image: 'pictures/greavard.jpg'},
+	{id: 'hzorua', name: 'hzorua', image: 'pictures/hzorua.jpg'},
+	{id: 'jolteon', name: 'jolteon', image: 'pictures/jolteon.jpg'},
+	{id: 'komala', name: 'komala', image: 'pictures/komala.jpg'},
+	{id: 'larvitar', name: 'larvitar', image: 'pictures/larvitar.jpg'},
+	{id: 'mabostiff', name: 'mabostiff', image: 'pictures/mabostiff.jpg'},
+	{id: 'mimikyu', name: 'mimikyu', image: 'pictures/mimikyu.jpg'},
+	{id: 'pikachu', name: 'pikachu', image: 'pictures/pikachu.jpg'},
+	{id: 'piplup', name: 'piplup', image: 'pictures/piplup.jpg'},
+	{id: 'quagsire', name: 'quagsire', image: 'pictures/quagsire.jpg'},
+	{id: 'skwovet', name: 'skwovet', image: 'pictures/skwovet.jpg'},
+	{id: 'snorlax', name: 'snorlax', image: 'pictures/snorlax.jpg'},
+	{id: 'substitute', name: 'substitute', image: 'pictures/substitute.jpg'},
+	{id: 'swablu', name: 'swablu', image: 'pictures/swablu.jpg'},
+	{id: 'tandemaus', name: 'tandemaus', image: 'pictures/tandemaus.jpg'},
+	{id: 'toxel', name: 'toxel', image: 'pictures/toxel.jpg'},
+	{id: 'turtwig', name: 'turtwig', image: 'pictures/turtwig.jpg'},
+	{id: 'umbreon', name: 'umbreon', image: 'pictures/umbreon.jpg'},
+	{id: 'vaporeon', name: 'vaporeon', image: 'pictures/vaporeon.jpg'},
+	{id: 'venonat', name: 'venonat', image: 'pictures/venonat.jpg'},
+	{id: 'zorua', name: 'zorua', image: 'pictures/zorua.jpg'}
 ];
 
 var myPicker = new picker.Picker({
